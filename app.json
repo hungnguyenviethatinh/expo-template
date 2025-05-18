@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Expo Template",
+    "slug": "expo-template",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./src/assets/images/icon.png",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/images/icon.png",
+      "resizeMode": "cover"
+    },
+    "ios": {
+      "icon": "./src/assets/images/ios/icon.png",
+      "bundleIdentifier": "com.expo.template",
+      "userInterfaceStyle": "automatic",
+      "supportsTablet": true
+    },
+    "android": {
+      "icon": "./src/assets/images/android/icon.png",
+      "package": "com.expo.template",
+      "versionCode": 1,
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./src/assets/images/web/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-asset",
+      "expo-localization"
+    ]
+  }
+}
